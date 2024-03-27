@@ -1,0 +1,113 @@
+* {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+      margin-top: 10%;
+      text-align: center;
+  }
+  
+  .chooseCountContainer {
+      font-size: 1rem;
+      text-transform: uppercase;
+  }
+  
+  input {
+      width: 100px;
+      height: 10px;
+      font-size: 1rem;
+      border: 3px solid #8c52ff;
+      border-radius: 10px;
+      padding: 10px;
+  }
+  
+  #submitCount {
+      width: 100px;
+      height: 30px;
+      margin-top: 20px;
+      cursor: pointer;
+      border: 3px solid #8c52ff;
+      background-color: white;
+      border-radius: 5px;
+      font-size: 1rem;
+  }
+  
+  #submitCount:hover {
+      background-color: #8c52ff;
+      color: white;
+      transition: 0.25s;
+  }
+  
+  #submitCount:disabled {
+      background-color: limegreen;
+      color: black;
+      border: 3px solid limegreen;
+      cursor: not-allowed;
+  }
+  
+  #submitStartValue {
+      width: 100px;
+      height: 30px;
+      margin-top: 20px;
+      cursor: pointer;
+      border: 3px solid #8c52ff;
+      background-color: white;
+      border-radius: 5px;
+      font-size: 1rem;
+      margin-bottom: 40px;
+  }
+  
+  #submitStartValue:hover {
+      background-color: #8c52ff;
+      color: white;
+      transition: 0.25s;
+  }
+  
+  #submitStartValue:disabled {
+      background-color: limegreen;
+      color: black;
+      border: 3px solid limegreen;
+      cursor: not-allowed;
+  }
+  
+  .btn {
+      width: 100px;
+      font-size: 1rem;
+      cursor: pointer;
+      height: 50px;
+      margin: 20px;
+      text-transform: uppercase;
+      border-radius: 10px;
+      border: 3px solid #8c52ff;
+      background-color: white;
+  }
+  
+  .btn:hover {
+      background-color: #8c52ff;
+      color: white;
+      transition: 0.25s;
+  }
+  
+  #value {
+      font-size: 5rem;
+  }
+  
+  #reset-page-btn {
+      width: 300px;
+      font-size: 1rem;
+      cursor: pointer;
+      height: 50px;
+      margin: 20px;
+      text-transform: uppercase;
+      border-radius: 10px;
+      border: 3px solid #8c52ff;
+      background-color: white;
+  }
+  
+  #reset-page-btn:hover {
+      background-color: #8c52ff;
+      color: white;
+      transition: 0.25s;
+  }
